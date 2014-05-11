@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+  background-color: white;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin: 0px auto;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 2.2em;
+  float: left;
+  line-height: 75px;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.25);
+}
+
+nav li {
+  float: left;
+}
+nav li a {
+  color: black;
+  margin: 0 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+nav li a:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  color: #FB000D;
+}
+
+/* Header */
+header {
+  background-color: #009D92;
+  padding: 10px;
+  min-width: 800px;
+}
+header h1 {
+  color: #FFEECC;
+  background: url('../images/icons/it.png') no-repeat 0 50%;
+  padding-left: 40px;
+}
+header h1 a{
+	color: black;
+	margin: 0 10px;
+  	padding: 5px 10px;
+	text-decoration: none;
+}
+header h1 a:hover{
+	background-color: black;
+	color: white;
+}
+header nav {
+  float: right;
+  font-size: 1.2em;
+  margin-left: 20px;
+}
+header nav li {
+  line-height: 75px;
+}
+header nav a {
+  border-radius: 6px;
+}
+header nav a:hover {
+  background-color: #fff;
+}
+
+header:after {
+  /* clearfix hack */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.wrapper{
+    width: 100%;
+    max-width:1100px;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+/*Sidebar*/
+.sidebar-left ul{
+	list-style: none;
+	margin: 10px 0px;
+	padding: 0;
+	position: fixed;
+}
+
+/*Main*/
+div.main {
+	max-width: 1025px;
+	min-width: 725;
+	float: left;
+	margin-left: 75px;
+}
+div.main img{
+	float: right;
+	width: 350px;
+	margin: 10px;
+}
+blockquote{
+	float: left;
+	width: 250px;
+	border: 1px solid #000000;
+	padding: 15px;
+	margin: 10px;
+	background-color: #888;
+	color: white;
+}
+.blue {
+	color: #3f47fb;
+	font-weight: bold;
+}
+
+.blue-big{
+	color: #3f47fb;
+	font-size: 18px;
+	font-weight: bold;
+}
